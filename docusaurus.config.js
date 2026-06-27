@@ -20,10 +20,10 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://suraj-iyer-1.github.io',
+  url: 'https://familymanual.org',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Family_Manual/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // Update these when you publish to GitHub Pages.
