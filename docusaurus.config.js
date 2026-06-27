@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Family Journey',
+  title: 'Family Manual',
   tagline: 'Free. Practical. For every Indian family.',
   favicon: 'img/favicon.ico',
 
@@ -23,7 +23,7 @@ const config = {
   url: 'https://suraj-iyer-1.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Family_Journey/',
+  baseUrl: '/Family_Manual/',
 
   // GitHub pages deployment config.
   // Update these when you publish to GitHub Pages.
@@ -73,9 +73,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Family Journey',
+        title: 'Family Manual',
         logo: {
-          alt: 'Family Journey Logo',
+          alt: 'Family Manual Logo',
           src: 'img/logo.svg',
         },
         items: [
