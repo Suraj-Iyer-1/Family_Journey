@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknirvahana=self.webpackChunknirvahana||[]).push([["220"],{1912(a){a.exports=JSON.parse('{"blogBasePath":"/Family_Manual/blog","blogTitle":"Blog","authorsListPath":"/Family_Manual/blog/authors"}')}}]);
