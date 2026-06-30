@@ -79,9 +79,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/docusaurus-social-card.jpg',
-      colorMode: {
-        respectPrefersColorScheme: true,
-      },
+      colorMode: {},
       navbar: {
         title: 'Family Manual',
         logo: {
@@ -95,7 +93,6 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
         ],
       },
       footer: {
@@ -110,17 +107,8 @@ const config = {
               },
             ],
           },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-            ],
-          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Family Journey. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Family Manual. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
