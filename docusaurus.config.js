@@ -82,10 +82,6 @@ const config = {
       colorMode: {},
       navbar: {
         title: 'Family Manual',
-        logo: {
-          alt: 'Family Manual Logo',
-          src: 'img/logo.svg',
-        },
         items: [
           {
             type: 'docSidebar',
