@@ -1,8 +1,3 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -16,8 +11,55 @@
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.heroDescription {
+  max-width: 640px;
+  margin: 1.25rem auto 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  opacity: 0.85;
+}
+
+.topicsSection {
+  padding: 3rem 0;
+}
+
+.topicCard {
+  margin-bottom: 1.5rem;
+}
+
+.topicLink {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
+.topicLink:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.topicCardInner {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--ifm-toc-border-color);
+  background-color: var(--ifm-background-surface-color);
+  height: 100%;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.topicCardInner:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+.topicCardInner h3 {
+  margin-bottom: 0.5rem;
+  color: var(--ifm-color-primary);
+}
+
+@media screen and (max-width: 996px) {
+  .topicsSection {
+    padding: 2rem 0;
+  }
 }
