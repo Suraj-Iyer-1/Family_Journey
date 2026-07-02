@@ -87,8 +87,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Start Here',
           },
+          {to: '/about', label: 'About', position: 'right'},
         ],
       },
       footer: {
@@ -104,7 +105,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Family Manual. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Family Manual.`,
       },
       prism: {
         theme: prismThemes.github,

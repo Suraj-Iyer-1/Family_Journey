@@ -1,0 +1,41 @@
+.aboutPage {
+  padding: 3rem 0;
+}
+
+.aboutContent {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.intro {
+  font-size: 1.1rem;
+  opacity: 0.85;
+  margin-bottom: 2rem;
+}
+
+.section {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--ifm-toc-border-color);
+}
+
+.section p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.linkedinLink {
+  color: var(--ifm-color-primary);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.linkedinLink:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 996px) {
+  .aboutPage {
+    padding: 2rem 0;
+  }
+}
