@@ -21,7 +21,7 @@ export default function About() {
               <Heading as="h2">Full Disclosure</Heading>
               <p>
                 Family Manual is a free, non-commercial, public-interest resource.
-                It is not a law firm, financial advisory service, or government body,
+                This site must not be considered legal or financial advisory, or an official governmentresource,
                 and nothing on this site constitutes legal or financial advice.
               </p>
               <p>
@@ -34,7 +34,7 @@ export default function About() {
               <p>
                 Family Manual makes no representations or warranties regarding the
                 accuracy, completeness, or timeliness of information on this site.
-                Procedures, forms, and requirements change — always verify with the
+                Procedures, forms, and requirements change over time. While the site will remain as updated possible, always verify with the
                 relevant authority before acting. Family Manual accepts no liability
                 for outcomes arising from reliance on content published here.
               </p>
@@ -47,9 +47,9 @@ export default function About() {
             <section className={styles.section}>
               <Heading as="h2">Objective</Heading>
               <p>
-                Family Manual was built from observing a clear gap: the administrative
-                and legal responsibilities that follow a death are guaranteed to affect
-                every family, yet most people encounter them for the first time in the
+                Family Manual was built from observing a very simple gap: the administrative
+                and legal responsibilities that follow the death of a loved one are guaranteed to affect
+                every person. Yet most people encounter them for the first time in the
                 middle of grief — with no preparation and no clear guide.
               </p>
               <p>
@@ -57,7 +57,7 @@ export default function About() {
                 plain-language, step-by-step guidance on death registration, succession,
                 bank and insurance claims, pension and EPF, and property transfer —
                 without needing a lawyer, a CA, or a family connection who happens to
-                know the system.
+                know the system, or might overcharge you for these services.
               </p>
               <p>
                 Family Manual is not affiliated with any government body, legal firm,
@@ -71,11 +71,11 @@ export default function About() {
               <p>
                 Family Manual is an independent project built and maintained by one
                 person. It is a free, self-funded effort with no commercial motive —
-                built because the need is real and the gap is obvious.
+                built solely to bridge a very real gap that every individual would face.
               </p>
               <p>
                 To connect, flag an error, or contribute, reach out via the contact
-                link in the footer.
+                link in the footer (will soon be available).
               </p>
             </section>
 

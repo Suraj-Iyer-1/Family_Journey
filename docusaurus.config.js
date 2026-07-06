@@ -96,7 +96,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Family Manual.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Family Manual. Helping families make better decisions.`,
       },
       prism: {
         theme: prismThemes.github,
