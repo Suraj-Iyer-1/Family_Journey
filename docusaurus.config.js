@@ -48,16 +48,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -99,7 +90,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Introduction',
+                label: 'Start Here',
                 to: '/docs/intro',
               },
             ],
