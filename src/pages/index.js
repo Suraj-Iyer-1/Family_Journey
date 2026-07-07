@@ -28,7 +28,7 @@ function HomepageHeader() {
 
 const topics = [
   {
-    title: 'The First 24 Hours Post-Death: What to do',
+    title: "The First 24 Hours Post-Death: What to do",
     description: 'Emotions can overpower critical decision-making during such an event. Here is everything you need to know and do in the first 24 hours.',
     link: '/docs/24-hours',
   },
