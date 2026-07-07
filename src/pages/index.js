@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import Head from '@docusaurus/Head';
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -15,10 +16,10 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <p className={styles.heroDescription}>
-          When someone in your family passes away, the paperwork doesn't wait.
-          This is a free, non-commercial, operational guide to help Indian families navigate 
-          death registration, succession, bank and insurance claims, pension and 
-          EPF, and property transfer. The intention is to keep this in plain language and easily understandable.
+          Paperwork doesn't pause when someone in your family passes away.
+          This is a non-commercial, operational resource to help Indian families navigate 
+          death registration, succession, bank accounts, insurance claims, pensions, EPF, and property transfers. 
+          The intention is to keep this in plain language and easily understandable.
         </p>
       </div>
     </header>
@@ -28,7 +29,7 @@ function HomepageHeader() {
 const topics = [
   {
     title: 'Death Registration',
-    description: 'How to register a death with municipal authorities and obtain the death certificate.',
+    description: 'How to register a death with municipal authorities and obtain a death certificate.',
     link: '/docs/death-registration',
   },
   {
@@ -43,7 +44,7 @@ const topics = [
   },
   {
     title: 'Bank & Insurance Claims',
-    description: 'Steps to claim bank accounts, fixed deposits, and life insurance after a death.',
+    description: 'Steps to claim bank accounts, fixed deposits, SEBI-registered investments, and life insurance after a death.',
     link: '/docs/bank-insurance-claims',
   },
   {
@@ -71,7 +72,13 @@ export default function Home() {
   return (
     <Layout
       title={siteConfig.title}
-      description="A free guide to navigating administrative tasks after a death in India">
+      description="Free step-by-step guides for what to do after a death: registration, succession, legal heir, bank & insurance claims, pension, EPF, property transfer.">
+      <Head>
+        <meta
+          property="og:description"
+          content="The paperwork nobody explains when you're grieving — laid out simply, one step at a time."
+        />
+      </Head>
       <HomepageHeader />
       <main>
         <section className={styles.topicsSection}>

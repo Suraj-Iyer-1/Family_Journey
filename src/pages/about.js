@@ -20,16 +20,16 @@ export default function About() {
             <section className={styles.section}>
               <Heading as="h2">Full Disclosure</Heading>
               <p>
-                Family Manual is a free, non-commercial, public-interest resource.
-                This site must not be considered legal or financial advisory, or an official governmentresource,
+                Family Manual is a non-commercial, public-interest resource run by one person.
+                This site must not be considered legal or financial advisory, or an official government resource,
                 and nothing on this site constitutes legal or financial advice.
               </p>
               <p>
-                All content is compiled from publicly available official sources —
-                government portals, circulars, and statutory documents — and is
-                intended solely to help individuals understand administrative
+                All content is compiled from publicly available official sources. This
+                includes government portals, circulars, and statutory documents. The
+                intention is solely to help individuals understand administrative
                 procedures in plain language. It does not substitute for professional
-                legal or financial counsel.
+                legal, or financial counsel.
               </p>
               <p>
                 Family Manual makes no representations or warranties regarding the
@@ -49,20 +49,20 @@ export default function About() {
               <p>
                 Family Manual was built from observing a very simple gap: the administrative
                 and legal responsibilities that follow the death of a loved one are guaranteed to affect
-                every person. Yet most people encounter them for the first time in the
-                middle of grief — with no preparation and no clear guide.
+                every person. Most people encounter them for the first time in the
+                middle of grief with no preparation or adequate guidance.
               </p>
               <p>
-                The goal is simple: one reliable place where any Indian family can find
-                plain-language, step-by-step guidance on death registration, succession,
-                bank and insurance claims, pension and EPF, and property transfer —
-                without needing a lawyer, a CA, or a family connection who happens to
-                know the system, or might overcharge you for these services.
+                The goal is simple: one consolidated post-mortem resource where any Indian family can find
+                step-by-step guidance on death registration, succession,
+                bank and insurance claims, pension and EPF, and property transfer processes
+                without having to immediately consult a lawyer, a CA, or a family connection who happens to
+                know the system, or might exploit your lack of awareness for these services.
               </p>
               <p>
                 Family Manual is not affiliated with any government body, legal firm,
                 or commercial service. It exists purely in the public interest, and
-                it always will.
+                it always will be.
               </p>
             </section>
 
@@ -70,8 +70,8 @@ export default function About() {
               <Heading as="h2">Who Built This</Heading>
               <p>
                 Family Manual is an independent project built and maintained by one
-                person. It is a free, self-funded effort with no commercial motive —
-                built solely to bridge a very real gap that every individual would face.
+                person. It is a free, self-funded effort, built solely to bridge a very
+                real gap that every individual would face.
               </p>
               <p>
                 To connect, flag an error, or contribute, reach out via the contact
