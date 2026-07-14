@@ -75,7 +75,7 @@ export default function About() {
               </p>
               <p>
                 To connect, flag an error, or contribute, reach out via the contact
-                link in the footer (will soon be available).
+                link in the footer.
               </p>
             </section>
 

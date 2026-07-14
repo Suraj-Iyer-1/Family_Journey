@@ -84,20 +84,29 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Start Here',
-                to: '/docs/intro',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Family Manual. Helping families make better decisions.`,
-      },
+  style: 'dark',
+  links: [
+    {
+      title: 'Explore',
+      items: [
+        {
+          label: 'Start Here',
+          to: '/docs/intro',
+        },
+      ],
+    },
+    {
+      title: 'Contact',
+      items: [
+        {
+          label: 'outreach@familymanual.org',
+          href: 'mailto:outreach@familymanual.org',
+        },
+      ],
+    },
+  ],
+  copyright: `Copyright © ${new Date().getFullYear()} Family Manual. Helping families make better decisions.`,
+},
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
